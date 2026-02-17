@@ -93,6 +93,10 @@ export default function RootLayout({
   return (
     <html lang="id" className="scroll-smooth">
       <head>
+        <meta
+          name="google-site-verification"
+          content="P5MsvjApZuI5sVzsIrBoimhvHeO8wmbDNIuCtZfPFPM"
+        />
         {/* JSON-LD Structured Data */}
         <script
           type="application/ld+json"
