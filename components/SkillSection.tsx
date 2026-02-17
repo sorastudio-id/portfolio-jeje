@@ -59,8 +59,8 @@ export default function SkillSection() {
                   { nama: "CapCut", icon: "Cc", color: "bg-[#000000]", image: "/assets/capcut.jpeg" },
                   { nama: "Canva", icon: "Cv", color: "bg-[#00c4cc]", image: "/assets/canva.jpeg" },
                   { nama: "Instagram", icon: "Ig", color: "bg-gradient-to-br from-[#f09433] via-[#dc2743] to-[#bc1888]", image: "/assets/Instagram_Symbol_Alternative_1.png" },
-                  { nama: "TikTok", icon: "Tt", color: "bg-[#000000]", image: "/assets/TikTok_Logo_Alternative_1.png" },
-                  { nama: "CAD 3D", icon: "3D", color: "bg-[#2e7d32]", image: "/assets/autocad-logo-png_seeklogo-482394.png" },
+                  { nama: "TikTok", icon: "Tt", color: "bg-[#000000]", image: "/assets/tiktok.avif" },
+                  { nama: "CAD 3D", icon: "3D", color: "bg-[#2e7d32]", image: "/assets/autocad.png" },
                   { nama: "MS Office", icon: "Ms", color: "bg-[#d83b01]", image: "/assets/msoffice.png" },
                 ].map((sw, index) => (
                   <div
