@@ -1,4 +1,5 @@
 import PaperCard from "./PaperCard";
+import Image from "next/image";
 
 const skills = [
   { nama: "Public Speaking", emoji: "🎤", color: "bg-[#fff9c4] text-[#f57f17] border-[#ffd54f]" },
@@ -55,21 +56,32 @@ export default function SkillSection() {
               </h3>
               <div className="grid grid-cols-3 gap-5">
                 {[
-                  { nama: "CapCut", icon: "Cc", color: "bg-[#000000]" },
-                  { nama: "Canva", icon: "Cv", color: "bg-[#00c4cc]" },
-                  { nama: "Instagram", icon: "Ig", color: "bg-gradient-to-br from-[#f09433] via-[#dc2743] to-[#bc1888]" },
-                  { nama: "TikTok", icon: "Tt", color: "bg-[#000000]" },
-                  { nama: "CAD 3D", icon: "3D", color: "bg-[#2e7d32]" },
-                  { nama: "MS Office", icon: "Ms", color: "bg-[#d83b01]" },
+                  { nama: "CapCut", icon: "Cc", color: "bg-[#000000]", image: null },
+                  { nama: "Canva", icon: "Cv", color: "bg-[#00c4cc]", image: null },
+                  { nama: "Instagram", icon: "Ig", color: "bg-gradient-to-br from-[#f09433] via-[#dc2743] to-[#bc1888]", image: "/assets/Instagram_Symbol_Alternative_1.png" },
+                  { nama: "TikTok", icon: "Tt", color: "bg-[#000000]", image: "/assets/TikTok_Logo_Alternative_1.png" },
+                  { nama: "CAD 3D", icon: "3D", color: "bg-[#2e7d32]", image: "/assets/autocad-logo-png_seeklogo-482394.png" },
+                  { nama: "MS Office", icon: "Ms", color: "bg-[#d83b01]", image: null },
                 ].map((sw, index) => (
                   <div
                     key={index}
                     className="flex flex-col items-center gap-2 p-4 rounded-xl bg-[var(--color-paper-alt)] border border-[var(--color-beige-dark)] transition-all duration-300 hover:shadow-lg hover:-translate-y-1 hover:border-[var(--color-primary)]/30 group cursor-default"
                   >
                     <div
-                      className={`${sw.color} w-12 h-12 rounded-xl flex items-center justify-center text-white text-sm font-bold shadow-md group-hover:scale-110 transition-transform duration-300`}
+                      className={`${sw.color} w-12 h-12 rounded-xl flex items-center justify-center text-white text-sm font-bold shadow-md group-hover:scale-110 transition-transform duration-300 overflow-hidden relative`}
                     >
-                      {sw.icon}
+                      {sw.image ? (
+                        <div className="relative w-full h-full p-2">
+                           <Image 
+                             src={sw.image} 
+                             alt={sw.nama} 
+                             fill 
+                             className="object-contain" 
+                           />
+                        </div>
+                      ) : (
+                        sw.icon
+                      )}
                     </div>
                     <span className="text-xs font-semibold text-[var(--color-text)] text-center leading-tight">
                       {sw.nama}

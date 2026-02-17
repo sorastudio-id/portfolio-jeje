@@ -63,7 +63,7 @@ export default function Footer() {
         {/* Bottom Footer */}
         <PaperCard className="p-6 text-center" hover={false} rotate={0}>
           <p className="text-sm text-[var(--color-text-light)]">
-            © 2025 Jelita Frizyllia Adrieni. Dibuat dengan ❤️ dari Padang Pariaman.
+            © 2026 jeje . All rights reserved. Built with ❤️ and modern technology.
           </p>
           <div className="flex justify-center gap-6 mt-4">
             <a
