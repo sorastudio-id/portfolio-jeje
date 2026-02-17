@@ -10,7 +10,7 @@ const poppins = Poppins({
   display: "swap",
 });
 
-const SITE_URL = "https://porto-jeje.vercel.app";
+const SITE_URL = "https://jelitafrizyllia.vercel.app";
 const SITE_NAME = "Jelita Frizyllia Adrieni — Portfolio";
 const SITE_DESCRIPTION =
   "Portfolio Jelita Frizyllia Adrieni. Mahasiswi Teknik Mesin Politeknik Negeri Padang, Duta Maritim Indonesia 2025, Juara 2 Duta GenRe Padang Pariaman, Content Creator Makeup & Hijab.";
