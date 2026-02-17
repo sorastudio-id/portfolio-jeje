@@ -70,6 +70,9 @@ export const metadata: Metadata = {
       },
     ],
   },
+  verification: {
+    google: "P5MsvjApZuI5sVzsIrBoimhvHeO8wmbDNIuCtZfPFPM",
+  },
   twitter: {
     card: "summary_large_image",
     title: SITE_NAME,
