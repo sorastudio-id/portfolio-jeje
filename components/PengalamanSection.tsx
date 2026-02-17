@@ -205,14 +205,18 @@ export default function PengalamanSection() {
         </div>
 
         {/* Text-only Cards — 2 column grid */}
-        <div className="grid sm:grid-cols-2 gap-6">
-          {textCards.map((item, index) => (
-            <TextCard
-              key={`text-${index}`}
-              item={item}
-              rotate={(index % 2 === 0 ? 1 : -1) * 0.8}
-            />
-          ))}
+        <div className="grid sm:grid-cols-2 gap-6 place-items-center">
+          {textCards.map((item, index) => {
+             const isLastOdd = index === textCards.length - 1 && textCards.length % 2 !== 0;
+             return (
+              <div key={`text-${index}`} className={`w-full ${isLastOdd ? "sm:col-span-2 sm:w-1/2" : ""}`}>
+                <TextCard
+                  item={item}
+                  rotate={(index % 2 === 0 ? 1 : -1) * 0.8}
+                />
+              </div>
+            );
+          })}
         </div>
       </div>
     </section>
