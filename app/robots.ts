@@ -8,6 +8,6 @@ export default function robots(): MetadataRoute.Robots {
         allow: "/",
       },
     ],
-    sitemap: "https://jelitafrizyllia.vercel.app/sitemap.xml",
+    sitemap: "https://porto-jeje.vercel.app/sitemap.xml",
   };
 }
