@@ -22,7 +22,16 @@ const pengalamanData: PengalamanItem[] = [
     tags: ["Maritim", "Kepemimpinan", "Nasional"],
     foto: "/assets/sdmi-staircase.jpg",
     fotoAlt: "Jelita di venue resmi SDMI 2025",
+    fotoAlt: "Jelita di venue resmi SDMI 2025",
     fotoPosition: "center 80%",
+  },
+  {
+    tahun: "2025",
+    judul: "Peserta LKMM-TD",
+    organisasi: "BEM KM PNP",
+    deskripsi:
+      "Mengasah jiwa kepemimpinan, manajemen, dan integritas. Berlatih menjadi pemimpin yang berdampak dan berkontribusi aktif dalam kegiatan Latihan Kepemimpinan Manajemen Mahasiswa Tingkat Dasar.",
+    tags: ["Kepemimpinan", "Manajemen"],
   },
   {
     tahun: "Jul 2025",
