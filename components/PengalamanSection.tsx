@@ -22,7 +22,6 @@ const pengalamanData: PengalamanItem[] = [
     tags: ["Maritim", "Kepemimpinan", "Nasional"],
     foto: "/assets/sdmi-staircase.jpg",
     fotoAlt: "Jelita di venue resmi SDMI 2025",
-    fotoAlt: "Jelita di venue resmi SDMI 2025",
     fotoPosition: "center 80%",
   },
   {
@@ -76,6 +75,7 @@ const pengalamanData: PengalamanItem[] = [
 const tagColors: Record<string, string> = {
   Maritim: "bg-[#e3f2fd] text-[#1565c0]",
   Kepemimpinan: "bg-[#fff3e0] text-[#e65100]",
+  Manajemen: "bg-[#eceff1] text-[#455a64]",
   Nasional: "bg-[#fce4ec] text-[#c62828]",
   Prestasi: "bg-[#fff9c4] text-[#f57f17]",
   GenRe: "bg-[#e8f5e9] text-[#2e7d32]",
