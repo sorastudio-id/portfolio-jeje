@@ -35,7 +35,7 @@ const softwareTools = [
 
 export default function SkillSection() {
   return (
-    <section id="keahlian" className="py-20 px-6">
+    <section id="keahlian" className="py-12 px-6">
       <div className="max-w-6xl mx-auto">
         {/* Section Label */}
         <div className="flex items-center gap-3 mb-12">

@@ -7,7 +7,7 @@ export default function HeroSection() {
   return (
     <section
       id="tentang"
-      className="min-h-screen pt-28 pb-16 px-6"
+      className="min-h-screen pt-28 pb-8 px-6"
     >
       <div className="max-w-6xl mx-auto">
         {/* Section Label */}

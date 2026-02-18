@@ -3,7 +3,7 @@ import StickyNote from "./StickyNote";
 
 export default function Footer() {
   return (
-    <footer id="kontak" className="py-20 px-6">
+    <footer id="kontak" className="py-12 px-6">
       <div className="max-w-6xl mx-auto">
         {/* Section Label */}
         <div className="flex items-center gap-3 mb-12">
