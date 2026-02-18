@@ -11,9 +11,9 @@ const poppins = Poppins({
 });
 
 const SITE_URL = "https://jelitafrizyllia.vercel.app";
-const SITE_NAME = "Jelita Frizyllia Adrieni — Portfolio";
+const SITE_NAME = "Jelita Frizyllia Adrieni | Mechanical Engineering Student & Content Creator";
 const SITE_DESCRIPTION =
-  "Portfolio Jelita Frizyllia Adrieni. Mahasiswi Teknik Mesin Politeknik Negeri Padang, Duta Maritim Indonesia 2025, Juara 2 Duta GenRe Padang Pariaman, Content Creator Makeup & Hijab.";
+  "Jelita Frizyllia Adrieni — Mahasiswi D4 Teknik Mesin Politeknik Negeri Padang. Duta Maritim Indonesia 2025, Juara 2 Duta GenRe Padang Pariaman 2025, dan Content Creator Makeup & Hijab dengan 8.600+ followers.";
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
